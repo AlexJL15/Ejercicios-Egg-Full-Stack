@@ -30,6 +30,6 @@ public class Ejercicio_9_Guia_Java {
         cont=cont+1;    
         }while (cont<20);
         
-     System.out.println ("El resultado de la suma de los numeros ingresados es: " + sum + " se han dejado fuera los numeros negativos en caso de que los tuviera");
+     System.out.println ("El resultado de la suma de los numeros ingresados es: " + sum + " Se han dejado fuera los numeros negativos en caso de que los tuviera");
     }
 }
