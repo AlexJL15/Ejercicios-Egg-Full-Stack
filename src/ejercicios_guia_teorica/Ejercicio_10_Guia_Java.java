@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Ejercicio_10_Guia_Java {
     public static void main(String[] args){
         Scanner n= new Scanner (System.in);
-        int numero,contador;
+        int numero,contador,j;
         contador=0;
         do{
             System.out.println("Ingrese un numero");
@@ -24,13 +24,14 @@ public class Ejercicio_10_Guia_Java {
                 }while (numero<1||numero>20);
             }else{
                 System.out.print (numero);
+                j=0;
                 for (int i=0; i<numero; i++){
-                    if (numero!=i){
+                    if (numero!=j){
                         System.out.print("*");
-                    }else{
-                        System.out.println ("*");
+                    }else {
+                        System.out.print ("*");
                     }
-              
+                 j=j++;
         }
             }
             
